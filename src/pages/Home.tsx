@@ -39,6 +39,11 @@ export function Home() {
             return
         }
 
+        if (roomRef.val().endedAt) {
+            alert('This room has been closed by the admin!')
+            return
+        }
+
         history.push(`/rooms/${roomCode}`)
     }
 
