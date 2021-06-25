@@ -8,6 +8,7 @@
     cursor: pointer;
 
     display: flex;
+    
 
     div {
         background: #835afd;
@@ -15,10 +16,14 @@
         display: flex;
         justify-content: center;
         align-items: center;
+
+        img {
+            height: 40px;
+        }
     }
 
     span {
-        display: block;
+        display: flex;
         align-self: center;
         flex: 1;
         padding: 0 16px 0 12px;
